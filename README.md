@@ -1,5 +1,16 @@
 # Health Check Monitor
 
-Multi-protocol health check: HTTP, TCP, gRPC, DNS with configurable alerting.
+Multi-protocol health check: HTTP, TCP, gRPC, DNS.
 
-## License: Apache 2.0
+## Protocols
+- HTTP(S) status code checking
+- TCP connection timeout
+- gRPC health check protocol
+- DNS resolution verification
+
+## Alerting
+- Slack, PagerDuty, email webhooks
+- Configurable thresholds and cooldowns
+
+## License
+MIT
